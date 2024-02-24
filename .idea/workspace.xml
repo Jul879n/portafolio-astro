@@ -5,31 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf706e72-b2e5-4a72-9f13-760a64b8ce2d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/extensions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/astro.config.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Menu.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/Buttons/ButtonCard.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/Buttons/ButtonMenu.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/Card.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/Footer.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/Icons/IconBrands.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/Icons/IconRegular.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/Icons/IconSolid.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/ImageRounded.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/RedesSociales.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/infoSitios.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/rutas.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/Layout.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/index.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/portafolio.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/ExperienciaLaboral.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/Footer.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Footer.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Layout.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Layout.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.astro" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,22 +48,22 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "E:/proyectos-astro/portafolio/src/components/ui",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.dev.executor": "Run",
-    "ts.external.directory.path": "E:\\proyectos-astro\\portafolio\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/proyectos-astro/portafolio/src/components/ui&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\proyectos-astro\\portafolio\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\proyectos-astro\portafolio\src\components\ui" />
@@ -127,11 +108,26 @@
       <option name="presentableId" value="Default" />
       <updated>1708723746434</updated>
       <workItem from="1708723751203" duration="11574000" />
-      <workItem from="1708740816491" duration="11394000" />
+      <workItem from="1708740816491" duration="12313000" />
+      <workItem from="1708793875845" duration="31000" />
+      <workItem from="1708811673104" duration="2672000" />
     </task>
+    <task id="LOCAL-00001" summary="v1">
+      <option name="closed" value="true" />
+      <created>1708754173008</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708754173008</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1" />
   </component>
 </project>

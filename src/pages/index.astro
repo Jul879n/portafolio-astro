@@ -1,12 +1,12 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/ui/Card.astro";
-import ImageRounded from "../components/ui/ImageRounded.astro";
 import ButtonCard from "../components/ui/Buttons/ButtonCard.astro";
 import IconBrands from "../components/ui/Icons/IconBrands.astro";
 import IconRegular from "../components/ui/Icons/IconRegular.astro";
 import {RedesSociales} from "../data/RedesSociales";
 import IconSolid from "../components/ui/Icons/IconSolid.astro";
+import {ExperienciaLaboral} from "../data/ExperienciaLaboral";
 ---
 
 <Layout title="Inicio">
@@ -26,20 +26,33 @@ import IconSolid from "../components/ui/Icons/IconSolid.astro";
             Bienvenido a mi portafolio
         </h1>
     </Card>
-    <div class='grid grid-cols-1 sm:grid-cols-2 gap-2'>
-        <Card adicionalClass='pb-5'>
-            <div class='flex gap-2 items-center'>
-                <img class='size-20 rounded-full object-cover' src='https://avatars.githubusercontent.com/u/89546666?v=4' alt='logo'>
-                <span class='animate-pulse rounded-full px-2 py-1 bg-green-300 text-black h-min uppercase font-semibold'>disponible para trabajar</span>
-            </div>
-            <h2 class='text-3xl sm:text-4xl capitalize w-max'>soy <span class='text-rose-400 font-semibold'>Julián Araya</span></h2>
-            <p class='my-1'>Soy desarrollador web con certificación en front-end, actualmente me encuentro aprendiendo distintas tecnologías para poder desarrollar aplicaciones web y móviles.</p>
-            <a class='px-2 py-1 rounded-full bg-rose-300 text-black hover:bg-rose-200 transition' href='#' download='cv-julian-araya.pdf'>Descargar CV</a>
-        </Card>
-        <Card adicionalClass='pb-5'>
-            <h2 class='text-3xl sm:text-4xl capitalize w-max'>experiencia laboral</h2>
-        </Card>
-    </div>
+    <Card adicionalClass='pb-5'>
+        <div class='flex gap-2 items-center'>
+            <img class='size-20 rounded-full object-cover' src='https://avatars.githubusercontent.com/u/89546666?v=4' alt='logo'>
+            <span class='animate-pulse rounded-full px-2 py-1 bg-green-300 text-black h-min uppercase font-semibold'>disponible para trabajar</span>
+        </div>
+        <h2 class='text-3xl sm:text-4xl capitalize w-max'>soy <span class='text-rose-400 font-semibold'>Julián Araya</span></h2>
+        <p class='my-1'>Soy desarrollador web con certificación en front-end, actualmente me encuentro aprendiendo distintas tecnologías para poder desarrollar aplicaciones web y móviles.</p>
+        <a class='px-2 py-1 rounded-full bg-rose-300 text-black hover:bg-rose-200 transition' href='#' download='cv-julian-araya.pdf'>Descargar CV</a>
+    </Card>
+    <Card adicionalClass='pb-5'>
+        <h2 class='text-3xl sm:text-4xl font-bold capitalize w-max'>experiencia laboral</h2>
+        <div class='grid grid-cols-2 gap-2'>
+            {
+                ExperienciaLaboral.map((data)=>(
+                        <div id={data.id}>
+                            <h3 class='capitalize text-rose-400 text-2xl sm:text-3xl font-semibold'>{data.cargo}</h3>
+                            <div class='flex gap-2 items-end'>
+                                <h4 class='capitalize text-xl sm:text-2xl'>{data.empresa}</h4>
+                                <p class='text-green-300'>{`${data.fechaInicio} - ${data.fechaFin}`}</p>
+                            </div>
+                            <p>{data.texto}</p>
+
+                        </div>
+                ))
+            }
+        </div>
+    </Card>
     <Card adicionalClass="">
         <h2 class='text-3xl sm:text-4xl capitalize w-max'>proyectos relevantes</h2>
     </Card>
