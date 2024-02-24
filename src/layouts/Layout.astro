@@ -1,0 +1,34 @@
+---
+import Menu from "../components/Menu.astro";
+import Footer from "../components/ui/Footer.astro";
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+		<script src="https://kit.fontawesome.com/7faa747298.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<Menu/>
+		<main class='px-3 sm:mx-auto container my-2'>
+			<slot />
+		</main>
+		<Footer/>
+	</body>
+</html>
+<style is:global>
+	html{
+		@apply text-rose-200 bg-slate-950;
+	}
+</style>
