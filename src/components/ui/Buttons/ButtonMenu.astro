@@ -1,8 +1,9 @@
 ---
 interface Props {
     href: string;
+    active: boolean
 }
 
-const { href } = Astro.props;
+const { href,active } = Astro.props;
 ---
-<a class='px-3 py-1 bg-green-300 rounded-full text-black hover:cursor-pointer capitalize' href={href}><slot /> </a>
+<a class={`px-3 py-1 rounded-full hover:cursor-pointer capitalize ${active ? 'bg-green-300 text-black ':'text-green-300'}`} href={href}><slot /> </a>

@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf706e72-b2e5-4a72-9f13-760a64b8ce2d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/data/ExperienciaLaboral.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astro.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/astro.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Menu.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/Buttons/ButtonMenu.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Buttons/ButtonMenu.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/Card.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Card.astro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ui/Footer.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Footer.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/Icons/IconBrands.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Icons/IconBrands.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/Icons/IconRegular.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Icons/IconRegular.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/Icons/IconSolid.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/Icons/IconSolid.astro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layouts/Layout.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Layout.astro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +32,7 @@
       <list>
         <option value="Astro Component" />
         <option value="data" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -71,6 +79,8 @@
       <recent name="E:\proyectos-astro\portafolio\src\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\proyectos-astro\portafolio\src\components\ui\Buttons" />
+      <recent name="E:\proyectos-astro\portafolio\src\components\react" />
       <recent name="E:\proyectos-astro\portafolio\public" />
       <recent name="E:\proyectos-astro\portafolio\src\components\ui\Icons" />
     </key>
@@ -110,7 +120,7 @@
       <workItem from="1708723751203" duration="11574000" />
       <workItem from="1708740816491" duration="12313000" />
       <workItem from="1708793875845" duration="31000" />
-      <workItem from="1708811673104" duration="2672000" />
+      <workItem from="1708811673104" duration="8810000" />
     </task>
     <task id="LOCAL-00001" summary="v1">
       <option name="closed" value="true" />
@@ -120,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708754173008</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="el ancho de los elementos paso a ser w-7/12 en sm y w-full en móvil">
+      <option name="closed" value="true" />
+      <created>1708817346469</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708817346469</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +146,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v1" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1" />
+    <MESSAGE value="el ancho de los elementos paso a ser w-7/12 en sm y w-full en móvil" />
+    <option name="LAST_COMMIT_MESSAGE" value="el ancho de los elementos paso a ser w-7/12 en sm y w-full en móvil" />
   </component>
 </project>

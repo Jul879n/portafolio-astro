@@ -20,9 +20,7 @@ import {ExperienciaLaboral} from "../data/ExperienciaLaboral";
         ))}
     </div>
     <Card adicionalClass="">
-        <h1
-                class="text-center break-words font-bold text-4xl sm:text-7xl text-rose-200 uppercase"
-        >
+        <h1>
             Bienvenido a mi portafolio
         </h1>
     </Card>
@@ -31,12 +29,12 @@ import {ExperienciaLaboral} from "../data/ExperienciaLaboral";
             <img class='size-20 rounded-full object-cover' src='https://avatars.githubusercontent.com/u/89546666?v=4' alt='logo'>
             <span class='animate-pulse rounded-full px-2 py-1 bg-green-300 text-black h-min uppercase font-semibold'>disponible para trabajar</span>
         </div>
-        <h2 class='text-3xl sm:text-4xl capitalize w-max'>soy <span class='text-rose-400 font-semibold'>Julián Araya</span></h2>
+        <h2>soy <span class='text-rose-400 font-semibold'>Julián Araya</span></h2>
         <p class='my-1'>Soy desarrollador web con certificación en front-end, actualmente me encuentro aprendiendo distintas tecnologías para poder desarrollar aplicaciones web y móviles.</p>
         <a class='px-2 py-1 rounded-full bg-rose-300 text-black hover:bg-rose-200 transition' href='#' download='cv-julian-araya.pdf'>Descargar CV</a>
     </Card>
     <Card adicionalClass='pb-5'>
-        <h2 class='text-3xl sm:text-4xl font-bold capitalize w-max'>experiencia laboral</h2>
+        <h2><IconSolid element='briefcase me-2'/>experiencia laboral</h2>
         <div class='grid grid-cols-2 gap-2'>
             {
                 ExperienciaLaboral.map((data)=>(
@@ -54,6 +52,6 @@ import {ExperienciaLaboral} from "../data/ExperienciaLaboral";
         </div>
     </Card>
     <Card adicionalClass="">
-        <h2 class='text-3xl sm:text-4xl capitalize w-max'>proyectos relevantes</h2>
+        <h2><IconSolid element='code me-2'/>proyectos relevantes</h2>
     </Card>
 </Layout>
