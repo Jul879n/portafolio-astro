@@ -12,9 +12,23 @@ interface Props {
 export const rutaImg:string = 'https://res.cloudinary.com/dh5at1of2/image/upload/f_auto,q_auto/v1/portafolio/'
 export const infoSitios: Props[] = [
     {
+        id: 22,
+        title: 'teatro san ginés',
+        path: 'portafolio/22',
+        jpg: 'jba63yxpwu2in8oxu8iv',
+        png: 'dddn3k9jsn8ctfyisjj8',
+        clase: 'sm:col-span-2',
+        paragraph: 'Sitio rediseño teatro San Ginés, primer proyecto académico.',
+        url: 'https://san-gines.github.io/',
+        list: [
+            'Utiliza CSS',
+            "Utiliza Bootstrap"
+        ],
+    },
+    {
         id: 23,
         title: 'Mercado libre',
-        path: '/23',
+        path: 'portafolio/23',
         jpg: 'jba63yxpwu2in8oxu8iv',
         png: 'dddn3k9jsn8ctfyisjj8',
         clase: 'sm:col-span-2',
@@ -33,7 +47,7 @@ export const infoSitios: Props[] = [
     {
         id: 24,
         title: 'Netflix',
-        path: '/24',
+        path: 'portafolio/24',
         jpg: 'tsqrke29yollbnkuix2s',
         png: 'uw2drtvsksti0cow2x4f',
         clase: '',
@@ -51,7 +65,7 @@ export const infoSitios: Props[] = [
     {
         id: 25,
         title: 'Rediseño Spotify',
-        path: '/25',
+        path: 'portafolio/25',
         jpg: 'c7zu7eyabsmamqxjcaas',
         png: 'zvvslpnpcsq0dys7tfyy',
         clase: '',
@@ -70,7 +84,7 @@ export const infoSitios: Props[] = [
     {
         id: 26,
         title: 'Spotify',
-        path: '/26',
+        path: 'portafolio/26',
         jpg: 'vasg1l5ywi2agyvlglfg',
         png: 'ahosree7qa0xaedsa5j8',
         clase: 'sm:col-span-2',
@@ -87,7 +101,7 @@ export const infoSitios: Props[] = [
     {
         id: 27,
         title: 'Tienda Rayitas',
-        path: '/27',
+        path: 'portafolio/27',
         jpg: 'hgnvbzztiblbfapuberf',
         png: 'jjlx3zjvrftclixosrm1',
         clase: 'sm:col-span-2',
@@ -104,7 +118,7 @@ export const infoSitios: Props[] = [
     {
         id: 28,
         title: 'Mi Solar',
-        path: '/28',
+        path: 'portafolio/28',
         jpg: 'wv8fuqipzgoh5b5dysyf',
         png: 'ik1acncd5xtnu2hilamg',
         clase: '',
@@ -122,7 +136,7 @@ export const infoSitios: Props[] = [
     {
         id: 29,
         title: 'Zaimoku Taller',
-        path: '/29',
+        path: 'portafolio/29',
         jpg: 'nhzcekpq1hukbjm9ddgp',
         png: 'cwwxwryppfx0hovcoyjx',
         clase: '',
@@ -136,7 +150,7 @@ export const infoSitios: Props[] = [
     {
         id: 30,
         title: 'SiteBeam',
-        path: '/30',
+        path: 'portafolio/30',
         jpg: 'dn5poqu5pgil2hkiodce',
         png: 'bpsc69qajxtnldjb5tfc',
         clase: 'col-span-2',

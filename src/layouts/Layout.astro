@@ -20,7 +20,7 @@ const { title } = Astro.props;
 		<script is:inline src="https://kit.fontawesome.com/7faa747298.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
-		<Menu titulo={title}/>
+		<Menu titulo={title?title : ''}/>
 		<main class='px-3 w-full sm:mx-auto sm:w-7/12 my-2'>
 			<slot />
 		</main>
