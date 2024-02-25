@@ -1,5 +1,6 @@
 interface Props {
     id: number;
+    destacado:boolean;
     title: string;
     path: string;
     jpg: string;
@@ -13,10 +14,11 @@ export const rutaImg:string = 'https://res.cloudinary.com/dh5at1of2/image/upload
 export const infoSitios: Props[] = [
     {
         id: 22,
+        destacado: true,
         title: 'teatro san ginés',
-        path: 'portafolio/22',
-        jpg: 'jba63yxpwu2in8oxu8iv',
-        png: 'dddn3k9jsn8ctfyisjj8',
+        path: '/22',
+        jpg: 'yri4n44u8zka5gng63q7',
+        png: 'q0oivape8cel6tejen4f',
         clase: 'sm:col-span-2',
         paragraph: 'Sitio rediseño teatro San Ginés, primer proyecto académico.',
         url: 'https://san-gines.github.io/',
@@ -27,8 +29,9 @@ export const infoSitios: Props[] = [
     },
     {
         id: 23,
+        destacado: true,
         title: 'Mercado libre',
-        path: 'portafolio/23',
+        path: '/23',
         jpg: 'jba63yxpwu2in8oxu8iv',
         png: 'dddn3k9jsn8ctfyisjj8',
         clase: 'sm:col-span-2',
@@ -46,8 +49,9 @@ export const infoSitios: Props[] = [
     },
     {
         id: 24,
+        destacado: false,
         title: 'Netflix',
-        path: 'portafolio/24',
+        path: '/24',
         jpg: 'tsqrke29yollbnkuix2s',
         png: 'uw2drtvsksti0cow2x4f',
         clase: '',
@@ -64,8 +68,9 @@ export const infoSitios: Props[] = [
     },
     {
         id: 25,
+        destacado: true,
         title: 'Rediseño Spotify',
-        path: 'portafolio/25',
+        path: '/25',
         jpg: 'c7zu7eyabsmamqxjcaas',
         png: 'zvvslpnpcsq0dys7tfyy',
         clase: '',
@@ -83,8 +88,9 @@ export const infoSitios: Props[] = [
     },
     {
         id: 26,
+        destacado: false,
         title: 'Spotify',
-        path: 'portafolio/26',
+        path: '/26',
         jpg: 'vasg1l5ywi2agyvlglfg',
         png: 'ahosree7qa0xaedsa5j8',
         clase: 'sm:col-span-2',
@@ -100,8 +106,9 @@ export const infoSitios: Props[] = [
     },
     {
         id: 27,
+        destacado: false,
         title: 'Tienda Rayitas',
-        path: 'portafolio/27',
+        path: '/27',
         jpg: 'hgnvbzztiblbfapuberf',
         png: 'jjlx3zjvrftclixosrm1',
         clase: 'sm:col-span-2',
@@ -117,8 +124,9 @@ export const infoSitios: Props[] = [
     },
     {
         id: 28,
+        destacado: false,
         title: 'Mi Solar',
-        path: 'portafolio/28',
+        path: '/28',
         jpg: 'wv8fuqipzgoh5b5dysyf',
         png: 'ik1acncd5xtnu2hilamg',
         clase: '',
@@ -135,8 +143,9 @@ export const infoSitios: Props[] = [
     },
     {
         id: 29,
+        destacado: false,
         title: 'Zaimoku Taller',
-        path: 'portafolio/29',
+        path: '/29',
         jpg: 'nhzcekpq1hukbjm9ddgp',
         png: 'cwwxwryppfx0hovcoyjx',
         clase: '',
@@ -149,8 +158,9 @@ export const infoSitios: Props[] = [
     },
     {
         id: 30,
+        destacado: false,
         title: 'SiteBeam',
-        path: 'portafolio/30',
+        path: '/30',
         jpg: 'dn5poqu5pgil2hkiodce',
         png: 'bpsc69qajxtnldjb5tfc',
         clase: 'col-span-2',
