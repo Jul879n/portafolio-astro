@@ -37,7 +37,7 @@ import ImageRounded from "../components/ui/ImageRounded.astro";
     </Card>
     <Card adicionalClass='pb-5'>
         <h2><IconSolid element='briefcase me-2'/>experiencia laboral</h2>
-        <div class='grid grid-cols-2 gap-2'>
+        <div class='grid grid-cols-1 sm:grid-cols-2 gap-2'>
             {
                 ExperienciaLaboral.map((data)=>(
                         <div id={data.id}>
@@ -54,7 +54,7 @@ import ImageRounded from "../components/ui/ImageRounded.astro";
     </Card>
     <Card adicionalClass="">
         <h2><IconSolid element='code me-2'/>proyectos relevantes</h2>
-        <div class='grid grid-cols-2 gap-2 gap-y-3 mt-2'>
+        <div class='grid grid-cols-1 sm:grid-cols-2 gap-2 gap-y-3 mt-2'>
             {infoSitios.filter(data => data.destacado === true).map(data=>
 <ImageRounded src={`${rutaImg}/${data.jpg}`} alt={data.title}/>
                 <div class='flex flex-col justify-between'>

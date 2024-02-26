@@ -6,13 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="cf706e72-b2e5-4a72-9f13-760a64b8ce2d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astro.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/astro.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Menu.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/infoSitios.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/infoSitios.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Layout.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Layout.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/[id].astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/[id].astro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.astro" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/portafolio.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/portafolio.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/portafolio/[id].astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/[id].astro" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +128,8 @@
       <workItem from="1708793875845" duration="31000" />
       <workItem from="1708811673104" duration="13591000" />
       <workItem from="1708829037418" duration="903000" />
-      <workItem from="1708837622372" duration="5752000" />
+      <workItem from="1708837622372" duration="6121000" />
+      <workItem from="1708907134851" duration="561000" />
     </task>
     <task id="LOCAL-00001" summary="v1">
       <option name="closed" value="true" />
@@ -165,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708827773349</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="sitio terminado">
+      <option name="closed" value="true" />
+      <created>1708843697766</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708843697766</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +182,8 @@
     <MESSAGE value="el ancho de los elementos paso a ser w-7/12 en sm y w-full en móvil" />
     <MESSAGE value="se activa el btn correspondiente a la página actual en el nav" />
     <MESSAGE value="pagina de sitio individual casi listo" />
-    <option name="LAST_COMMIT_MESSAGE" value="pagina de sitio individual casi listo" />
+    <MESSAGE value="sitio terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="sitio terminado" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
