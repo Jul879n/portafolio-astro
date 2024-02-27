@@ -12,13 +12,22 @@ const { title, description } = Astro.props;
 <!doctype html>
 <html lang="es">
 	<head>
+		<!-- Google tag (gtag.js) -->
+		<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-GPE3GM5DJM"></script>
+		<script is:inline>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-GPE3GM5DJM');
+		</script>
 		<meta charset="UTF-8" />
 		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/x-icon" href="/favicon.ico"/>
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
-		<script is:inline src="https://kit.fontawesome.com/7faa747298.js" crossorigin="anonymous"></script>
+		<script is:inline  src="https://kit.fontawesome.com/7faa747298.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
 		<Menu titulo={title?title : ''}/>
