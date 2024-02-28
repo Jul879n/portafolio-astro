@@ -6,41 +6,47 @@ import ImageRounded from "../components/ui/ImageRounded.astro";
 import NoExiste from "../components/NoExiste.astro";
 import IconSolid from "../components/ui/Icons/IconSolid.astro";
 export function getStaticPaths() {
-    return [
-        {params: {id: 22}},
-        {params: {id: 23}},
-        {params: {id: 24}},
-        {params: {id: 25}},
-        {params: {id: 26}},
-        {params: {id: 27}},
-        {params: {id: 28}},
-        {params: {id: 29}},
-        {params: {id: 30}},
-    ];
+    return infoSitios.map((data) => ({
+        params: {id: data.id},
+    }));
 }
-
 const {id} = Astro.params;
 ---
-<Layout title='Portafolio' description='info sitio web individual'>
-    <Card adicionalClass=''>
-        {infoSitios.filter((data) => data.id == id).length > 0 ?
-            infoSitios.filter((data) => data.id == id).map(data => (
-                    <ImageRounded src={`${rutaImg}/${data.jpg}`}
-                                  alt={data.title}/>
-                    <h1 class='mt-3 text-left'>{data.title}</h1>
-                    <p>{data.paragraph}</p>
-                        <div class='flex justify-center'>
-                            <a class='px-3 py-1 bg-rose-300 hover:bg-rose-500 text-black transition rounded-full capitalize' href={data.url} target='_blank'>visitar sitio <IconSolid element='arrow-up-right-from-square ms-2'/></a>
-                        </div>
-                    <h2>Características</h2>
-                    <ul class='list-disc list-inside'>
-                        {data.list&&data.list.map(list=>
-                                <li>{list}</li>
-                        )}
-                    </ul>
-            ))
-            :
-                <NoExiste/>
+
+<Layout title="Portafolio" description="info sitio web individual">
+    <Card adicionalClass="">
+        {
+            infoSitios.filter((data) => data.id == id).length > 0 ? (
+                infoSitios
+                    .filter((data) => data.id == id)
+                    .map((data) => (
+                        <>
+                            <ImageRounded
+                                src={`${rutaImg}/${data.jpg}`}
+                                alt={data.title}
+                            />
+                            <h1 class="mt-3 text-left">{data.title}</h1>
+                            <p>{data.paragraph}</p>
+                            <div class="flex justify-center">
+                                <a
+                                    class="px-3 py-1 bg-rose-300 hover:bg-rose-500 text-black transition rounded-full capitalize"
+                                    href={data.url}
+                                    target="_blank"
+                                >
+                                    visitar sitio{" "}
+                                    <IconSolid element="arrow-up-right-from-square ms-2" />
+                                </a>
+                            </div>
+                            <h2>Características</h2>
+                            <ul class="list-disc list-inside">
+                                {data.list &&
+                                    data.list.map((list) => <li>{list}</li>)}
+                            </ul>
+                        </>
+                    ))
+            ) : (
+                <NoExiste />
+            )
         }
     </Card>
 </Layout>
