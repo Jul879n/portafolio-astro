@@ -6,10 +6,23 @@ interface Props {
 }
 const {titulo} = Astro.props;
 ---
-<header class='px-3  w-full sm:w-7/12 sm:mx-auto container flex justify-end items-center my-2'>
-    <nav class='flex items-center gap-1'>
-        {rutas.map(({href, text}) => (
-            titulo.toLowerCase() === text.toLowerCase() ? <ButtonMenu active={true} href={href}>{text}</ButtonMenu> : <ButtonMenu active={false} href={href}>{text}</ButtonMenu>
-        ))}
+
+<header
+    class="lg:w-7/12 md:w-12/12 sm:w-10/12 w-full sm:mx-auto px-3 my-2 flex justify-end items-center"
+>
+    <nav class="flex items-center gap-1">
+        {
+            rutas.map(({href, text}) =>
+                titulo.toLowerCase() === text.toLowerCase() ? (
+                    <ButtonMenu active={true} href={href}>
+                        {text}
+                    </ButtonMenu>
+                ) : (
+                    <ButtonMenu active={false} href={href}>
+                        {text}
+                    </ButtonMenu>
+                )
+            )
+        }
     </nav>
 </header>
