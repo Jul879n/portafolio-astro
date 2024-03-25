@@ -1,6 +1,6 @@
 interface Props {
     id: number;
-    destacado:boolean;
+    destacado: boolean;
     title: string;
     path: string;
     jpg: string;
@@ -10,33 +10,33 @@ interface Props {
     url: string;
     list: string[];
 }
-export const rutaImg:string = 'https://res.cloudinary.com/dh5at1of2/image/upload/f_auto,q_auto/v1/portafolio/'
+export const rutaImg: string =
+    "https://res.cloudinary.com/dh5at1of2/image/upload/f_auto,q_auto/v1/portafolio/";
 export const infoSitios: Props[] = [
     {
         id: 22,
         destacado: true,
-        title: 'teatro san ginés',
-        path: '/22',
-        jpg: 'yri4n44u8zka5gng63q7',
-        png: 'q0oivape8cel6tejen4f',
-        clase: 'sm:col-span-2',
-        paragraph: 'Sitio rediseño teatro San Ginés, primer proyecto académico.',
-        url: 'https://san-gines.github.io/',
-        list: [
-            'Utiliza CSS',
-            "Utiliza Bootstrap"
-        ],
+        title: "teatro san ginés",
+        path: "/22",
+        jpg: "yri4n44u8zka5gng63q7",
+        png: "q0oivape8cel6tejen4f",
+        clase: "sm:col-span-2",
+        paragraph:
+            "Sitio rediseño teatro San Ginés, primer proyecto académico.",
+        url: "https://san-gines.github.io/",
+        list: ["Utiliza CSS", "Utiliza Bootstrap"],
     },
     {
         id: 23,
         destacado: true,
-        title: 'Mercado libre',
-        path: '/23',
-        jpg: 'jba63yxpwu2in8oxu8iv',
-        png: 'dddn3k9jsn8ctfyisjj8',
-        clase: 'sm:col-span-2',
-        paragraph: 'Sitio replica de mercado libre, hecho con WordPress y Woocommerce, es autoadministrable, utiliza custom post type y custom taxonomy.',
-        url: 'https://jul879n.free.nf/ecommerce',
+        title: "Mercado libre",
+        path: "/23",
+        jpg: "jba63yxpwu2in8oxu8iv",
+        png: "dddn3k9jsn8ctfyisjj8",
+        clase: "sm:col-span-2",
+        paragraph:
+            "Sitio replica de mercado libre, hecho con WordPress y Woocommerce, es autoadministrable, utiliza custom post type y custom taxonomy.",
+        url: "https://jul879n.free.nf/ecommerce",
         list: [
             "Realizado con WordPress",
             "Utiliza Woocommerce",
@@ -44,38 +44,40 @@ export const infoSitios: Props[] = [
             "Es Autoadministrable",
             "Responsive",
             "Utiliza jQuery",
-            "Utiliza Bootstrap"
+            "Utiliza Bootstrap",
         ],
     },
     {
         id: 24,
         destacado: false,
-        title: 'Netflix',
-        path: '/24',
-        jpg: 'tsqrke29yollbnkuix2s',
-        png: 'uw2drtvsksti0cow2x4f',
-        clase: '',
-        paragraph: 'Sitio replica de Netflix autoadministrable, utiliza custom post type y custom taxonomy, hecho con WordPress.',
-        url: 'https://jul879n.free.nf/netflix',
+        title: "Netflix",
+        path: "/24",
+        jpg: "tsqrke29yollbnkuix2s",
+        png: "uw2drtvsksti0cow2x4f",
+        clase: "",
+        paragraph:
+            "Sitio replica de Netflix autoadministrable, utiliza custom post type y custom taxonomy, hecho con WordPress.",
+        url: "https://jul879n.free.nf/netflix",
         list: [
             "Utiliza WordPress",
             "Utiliza custom post type y custom taxonomy",
             "Es Autoadministrable",
             "Responsive",
             "Funcionalidad con PHP",
-            "Utiliza Bootstrap"
+            "Utiliza Bootstrap",
         ],
     },
     {
         id: 25,
         destacado: true,
-        title: 'Rediseño Spotify',
-        path: '/25',
-        jpg: 'c7zu7eyabsmamqxjcaas',
-        png: 'zvvslpnpcsq0dys7tfyy',
-        clase: '',
-        paragraph: 'Este es un rediseño de Spotify en el que se aplican nuevas funciones y autoadministrable, hecho con WordPress, jQuery, utiliza custom post type y custom taxonomy además de distintos plugins de jQuery.',
-        url: 'https://jul879n.free.nf/spotify-redesign',
+        title: "Rediseño Spotify",
+        path: "/25",
+        jpg: "c7zu7eyabsmamqxjcaas",
+        png: "zvvslpnpcsq0dys7tfyy",
+        clase: "",
+        paragraph:
+            "Este es un rediseño de Spotify en el que se aplican nuevas funciones y autoadministrable, hecho con WordPress, jQuery, utiliza custom post type y custom taxonomy además de distintos plugins de jQuery.",
+        url: "https://jul879n.free.nf/spotify-redesign",
         list: [
             "Utiliza WordPress",
             "Utiliza custom post type y custom taxonomy",
@@ -83,96 +85,96 @@ export const infoSitios: Props[] = [
             "Responsive",
             "Utiliza Ajax para la navegación",
             "Utiliza jQuery para funcionalidad del reproductor y navegación",
-            "Utiliza Bootstrap"
+            "Utiliza Bootstrap",
         ],
     },
     {
         id: 26,
         destacado: false,
-        title: 'Spotify',
-        path: '/26',
-        jpg: 'vasg1l5ywi2agyvlglfg',
-        png: 'ahosree7qa0xaedsa5j8',
-        clase: 'sm:col-span-2',
-        paragraph: 'Sitio replica de la opción sin cuenta de Spotify de hace unos meses, hecho con WordPress, utiliza custom post type y custom taxonomy.',
-        url: 'https://jul879n.free.nf/spotify',
+        title: "Spotify",
+        path: "/26",
+        jpg: "vasg1l5ywi2agyvlglfg",
+        png: "ahosree7qa0xaedsa5j8",
+        clase: "sm:col-span-2",
+        paragraph:
+            "Sitio replica de la opción sin cuenta de Spotify de hace unos meses, hecho con WordPress, utiliza custom post type y custom taxonomy.",
+        url: "https://jul879n.free.nf/spotify",
         list: [
             "Utiliza WordPress",
             "Utiliza custom post type y custom taxonomy",
             "Es Autoadministrable",
             "Responsive",
-            "Utiliza Bootstrap"
+            "Utiliza Bootstrap",
         ],
     },
     {
         id: 27,
         destacado: false,
-        title: 'Tienda Rayitas',
-        path: '/27',
-        jpg: 'hgnvbzztiblbfapuberf',
-        png: 'jjlx3zjvrftclixosrm1',
-        clase: 'sm:col-span-2',
-        paragraph: 'Sitio de ventas de distintos tipos de rayitas, hecho con PHP y SQL, se puede agregar el producto al carrito, eliminarlo, modificar cantidad,crear usuario, iniciar sesión, agregar productos nuevo en caso de ser admin.',
-        url: 'https://jul879n.free.nf/rayitas',
+        title: "Tienda Rayitas",
+        path: "/27",
+        jpg: "hgnvbzztiblbfapuberf",
+        png: "jjlx3zjvrftclixosrm1",
+        clase: "sm:col-span-2",
+        paragraph:
+            "Sitio de ventas de distintos tipos de rayitas, hecho con PHP y SQL, se puede agregar el producto al carrito, eliminarlo, modificar cantidad,crear usuario, iniciar sesión, agregar productos nuevo en caso de ser admin.",
+        url: "https://jul879n.free.nf/rayitas",
         list: [
             "Utiliza PHP",
             "Utiliza SQL",
             "Utiliza Bootstrap",
             "Utiliza sesiones",
-            "Utiliza MVC"
+            "Utiliza MVC",
         ],
     },
     {
         id: 28,
         destacado: false,
-        title: 'Mi Solar',
-        path: '/28',
-        jpg: 'wv8fuqipzgoh5b5dysyf',
-        png: 'ik1acncd5xtnu2hilamg',
-        clase: '',
-        paragraph: 'Sitio web que ofrece servicios de energía solar para hogares y empresas.',
-        url: 'https://misolar.free.nf/',
+        title: "Mi Solar",
+        path: "/28",
+        jpg: "wv8fuqipzgoh5b5dysyf",
+        png: "ik1acncd5xtnu2hilamg",
+        clase: "",
+        paragraph:
+            "Sitio web que ofrece servicios de energía solar para hogares y empresas.",
+        url: "https://misolar.free.nf/",
         list: [
             "Utiliza jQuery",
             "Utiliza Bootstrap",
             "Utiliza Ajax para la navegación",
             "Sistema de login y cifrado de usuario",
             "Utiliza localStorage",
-            "Aplicación propia"
+            "Aplicación propia",
         ],
     },
     {
         id: 29,
         destacado: false,
-        title: 'Zaimoku Taller',
-        path: '/29',
-        jpg: 'nhzcekpq1hukbjm9ddgp',
-        png: 'cwwxwryppfx0hovcoyjx',
-        clase: '',
-        paragraph: 'Sitio web que ofrece productos en madera.',
-        url: 'https://zaimoku-taller.github.io/',
-        list: [
-            "Utiliza Bootstrap",
-            "Diseño Moderno"
-        ],
+        title: "Zaimoku Taller",
+        path: "/29",
+        jpg: "aawr7dkbt7nfjdwfnktq",
+        png: "cwwxwryppfx0hovcoyjx",
+        clase: "",
+        paragraph: "Sitio web que ofrece productos en madera.",
+        url: "https://zaimoku-taller.github.io/",
+        list: ["Utiliza Bootstrap", "Diseño Moderno"],
     },
     {
         id: 30,
         destacado: false,
-        title: 'SiteBeam',
-        path: '/30',
-        jpg: 'dn5poqu5pgil2hkiodce',
-        png: 'bpsc69qajxtnldjb5tfc',
-        clase: 'col-span-2',
-        paragraph: 'Sitio web que ofrece servicios de desarrollo y diseño web.',
-        url: 'https://sitebeam.vercel.app/',
+        title: "SiteBeam",
+        path: "/30",
+        jpg: "dn5poqu5pgil2hkiodce",
+        png: "bpsc69qajxtnldjb5tfc",
+        clase: "col-span-2",
+        paragraph: "Sitio web que ofrece servicios de desarrollo y diseño web.",
+        url: "https://sitebeam.vercel.app/",
         list: [
             "Utiliza Tailwind",
             "utiliza JavaScript para el funcionamiento",
             "NextJS",
             "Utiliza fetch para enviar datos de formulario",
             "Utiliza componentes reutilizables",
-            "Utiliza navegación dinámica"
+            "Utiliza navegación dinámica",
         ],
-    }
-]
+    },
+];
