@@ -1,0 +1,4 @@
+deployment:
+    tasks:
+        - export DEPLOYPATH=/home3/julncom/public_html/
+        - /bin/rsync -av dist/ $DEPLOYPATH

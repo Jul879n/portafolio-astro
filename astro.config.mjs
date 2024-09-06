@@ -5,7 +5,6 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [tailwind(),],
   site: 'https://jul879n.com',
-  outDir: './docs',
   build: {
     assets: 'assets/css'
   }
