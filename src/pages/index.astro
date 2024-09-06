@@ -28,8 +28,8 @@ import ImageRounded from "../components/ui/ImageRounded.astro";
     </Card>
     <Card adicionalClass='pb-5'>
         <div class='flex gap-2 items-center'>
-            <img class='size-20 rounded-full object-cover' src='https://avatars.githubusercontent.com/u/89546666?v=4' alt='logo'>
-            <span class='animate-pulse rounded-full px-3 py-1 bg-green-300 text-black h-min uppercase font-semibold'>disponible para trabajar</span>
+            <img class='size-20 rounded-full object-cover' src='/assets/img/julian-araya.jpg' alt='Julián Araya Contreras'>
+            <span class='animate-pulse rounded-full px-3 py-1 bg-green-300 text-black h-min uppercase font-semibold invisible'>disponible para trabajar</span>
         </div>
         <h2>soy <span class='text-rose-400 font-semibold'>Julián Araya</span></h2>
         <p class='my-1'>Soy desarrollador web con certificación en front-end, actualmente me encuentro aprendiendo distintas tecnologías para poder desarrollar aplicaciones web y móviles.</p>
@@ -52,12 +52,13 @@ import ImageRounded from "../components/ui/ImageRounded.astro";
             }
         </div>
     </Card>
-    <Card adicionalClass="">
+    <!--* Sitios Relevantes-->
+    <!--<Card adicionalClass="">
         <h2><IconSolid element='code me-2'/>proyectos relevantes</h2>
-        <div class='grid grid-cols-1 sm:grid-cols-2 gap-2 gap-y-3 mt-2'>
+        <div class='grid grid-cols-1 sm:grid-cols-2 gap-2 gap-y-3 my-2'>
             {infoSitios.filter(data => data.destacado === true).map(data=>
                 <ImageRounded src={`${rutaImg}/${data.jpg}`} alt={data.title}/>
-                <div class='flex flex-col justify-between'>
+                <div class='flex flex-col justify-center gap-2  py-3'>
                     <h3>{data.title}</h3>
                     <p class='line-clamp-3'>{data.paragraph}</p>
                     <div class='flex justify-center gap-2'>
@@ -67,5 +68,23 @@ import ImageRounded from "../components/ui/ImageRounded.astro";
                 </div>
             )}
         </div>
-    </Card> 
+    </Card>-->
+    <Card adicionalClass=''>
+        <h2><IconSolid element='code me-2'/>proyectos relevantes</h2>
+        <div class='grid grid-cols-1 lg:grid-cols-2 gap-2 xl:grid-cols-3 gap-y-3 my-2'>
+            {infoSitios.filter(data => data.destacado === true).map(data=>
+                   <div class='h-full'>
+                       <div class='flex flex-col justify-center gap-2  py-3'>
+                           <ImageRounded src={`${rutaImg}/${data.jpg}`} alt={data.title}/>
+                           <h3>{data.title}</h3>
+                           <p class='xl:line-clamp-3 lg:line-clamp-2'>{data.paragraph}</p>
+                           <div class='flex justify-center gap-2'>
+                               <a class='h-max px-3 py-1 bg-rose-400 hover:bg-rose-500 text-black rounded-full transition capitalize' href={data.path}>mas info <IconSolid element='circle-info ms-2'/></a>
+                               <a class='h-max px-3 py-1 bg-rose-400 hover:bg-rose-500 text-black rounded-full transition capitalize' href={data.url} target='_blank'>visitar<IconSolid element='arrow-up-right-from-square ms-2'/></a>
+                           </div>
+                       </div>
+                   </div>
+            )}
+        </div>
+    </Card>
 </Layout>

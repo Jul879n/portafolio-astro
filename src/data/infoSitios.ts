@@ -136,7 +136,7 @@ export const infoSitios: Props[] = [
         clase: "",
         paragraph:
             "Sitio web que ofrece servicios de energía solar para hogares y empresas.",
-        url: "https://misolar.free.nf/",
+        url: "https://mi-solar.github.io/",
         list: [
             "Utiliza jQuery",
             "Utiliza Bootstrap",

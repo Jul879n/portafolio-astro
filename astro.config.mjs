@@ -3,7 +3,10 @@ import tailwind from "@astrojs/tailwind";
 //import netlify from "@astrojs/netlify";
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), ],
-  output: "static",
-  // adapter: netlify()
+  integrations: [tailwind(),],
+  site: 'https://jul879n.com',
+  outDir: './docs',
+  build: {
+    assets: 'assets/css'
+  }
 });

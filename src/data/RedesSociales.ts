@@ -5,6 +5,6 @@ export const RedesSociales = [
     ico:'github',tipo:'brands'},
     {href:'https://www.linkedin.com/in/jul879n/',
     ico:'linkedin',tipo:'brands'},
-    {href:'https://wa.link/bojpi4/',
+    {href:'https://api.whatsapp.com/send?phone=56932470096',
     ico:'whatsapp',tipo:'brands'}
 ]
