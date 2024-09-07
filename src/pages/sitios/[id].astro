@@ -1,10 +1,10 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import Card from "../components/ui/Card.astro";
-import {infoSitios, rutaImg} from "../data/infoSitios";
-import ImageRounded from "../components/ui/ImageRounded.astro";
-import NoExiste from "../components/NoExiste.astro";
-import IconSolid from "../components/ui/Icons/IconSolid.astro";
+import Layout from "../../layouts/Layout.astro";
+import Card from "../../components/ui/Card.astro";
+import {infoSitios, rutaImg} from "../../data/infoSitios";
+import ImageRounded from "../../components/ui/ImageRounded.astro";
+import NoExiste from "../../components/NoExiste.astro";
+import IconSolid from "../../components/ui/Icons/IconSolid.astro";
 export function getStaticPaths() {
     return infoSitios.map((data) => ({
         params: {id: data.id},
